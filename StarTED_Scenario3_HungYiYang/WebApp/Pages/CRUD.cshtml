@@ -1,0 +1,78 @@
+﻿@page "{programId?}"
+@model WebApp.Pages.CRUDModel
+@{ ViewData["Title"] = "CRUD";
+}
+
+<h1>CRUD</h1>
+
+@if (Model.HasFeedback)
+{
+    <blockquote class="success">@Model.FeedbackMessage</blockquote>
+}
+
+@if (Model.HasError)
+{
+    <blockquote class="danger">@Model.ErrorMessage</blockquote>
+}
+
+
+<form method="post">
+    <label>
+        Program ID:
+            <input type="number" readonly asp-for="SchoolProgramInfo.ProgramId" />
+     
+    </label>
+    <label>
+        Program Name:
+        <input type="text" asp-for="SchoolProgramInfo.ProgramName" />
+        <span asp-validation-for="SchoolProgramInfo.ProgramName"></span>
+    </label>
+    <label>
+        Diploma Name:
+        <input type="text" asp-for="SchoolProgramInfo.DiplomaName" />
+        <span asp-validation-for="SchoolProgramInfo.DiplomaName"></span>
+    </label>
+    <label>
+        School:
+        <select asp-for="SchoolProgramInfo.SchoolCode">
+            <option value="0">select ...</option>
+            @foreach (var item in Model.SchoolList)
+            {
+                <option value="@item.SchoolCode">@item.SchoolName</option>
+            }
+        </select>
+    </label>
+    <label>
+        Tuition:
+        <input type="number" asp-for="SchoolProgramInfo.Tuition" />
+        <span asp-validation-for="SchoolProgramInfo.Tuition"></span>
+    </label>
+    <label>
+        International Tuition:
+        <input type="number" asp-for="SchoolProgramInfo.InternationalTuition" />
+        <span asp-validation-for="SchoolProgramInfo.InternationalTuition"></span>
+    </label>
+    @if (Model.SchoolProgramInfo.ProgramId != 0)
+    {
+<button type="submit" asp-page-handler="New" disabled>Insert</button>
+        <button type="submit" asp-page-handler="Update">Update</button>
+        <button type="submit" asp-page-handler="Remove"
+                onclick="return confirm('Are you sure you wish to delete the program?')">
+            Delete
+        </button>
+        <button type="submit" asp-page-handler="Clear" formnovalidate>Clear</button>
+        <button type="submit" asp-page-handler="Back" formnovalidate>New Search</button>
+    }
+    else
+    {
+<button type="submit" asp-page-handler="New">Insert</button>
+        <button type="submit" asp-page-handler="Update" disabled>Update</button>
+        <button type="submit" asp-page-handler="Remove" disabled
+                onclick="return confirm('Are you sure you wish to delete the program?')">
+            Delete
+        </button>
+        <button type="submit" asp-page-handler="Clear" formnovalidate>Clear</button>
+        <button type="submit" asp-page-handler="Back" formnovalidate>Cancel</button>
+    }
+
+</form>

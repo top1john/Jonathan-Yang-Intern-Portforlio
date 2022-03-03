@@ -1,0 +1,12 @@
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\bin\Debug\net5.0\starTEDSystem.deps.json
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\bin\Debug\net5.0\starTEDSystem.dll
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\bin\Debug\net5.0\ref\starTEDSystem.dll
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\bin\Debug\net5.0\starTEDSystem.pdb
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.AssemblyInfoInputs.cache
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.AssemblyInfo.cs
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.csproj.CoreCompileInputs.cache
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.dll
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\ref\starTEDSystem.dll
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.pdb
+C:\Users\Hardwork\Desktop\NAIT\Fall 2021\App Dev\Github\1517-sep-2021-oe01-exercises-top1john\Project_scenario3_HungYiYang\StarTED_Scenario3_HungYiYang\starTEDSystem\obj\Debug\net5.0\starTEDSystem.csproj.AssemblyReference.cache
