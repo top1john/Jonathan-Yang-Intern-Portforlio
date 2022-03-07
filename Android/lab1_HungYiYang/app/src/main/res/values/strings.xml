@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Oscar Reviews</string>
+    <string name="text_view_main_title">Oscar Reviews</string>
+    <string name="text_view_review">Review</string>
+    <string name="text_view_nominee">Nominee Name</string>
+    <string name="text_view_category">Category</string>
+    <string name="edit_text_message_hint">Enter text here</string>
+    <string name="button_post_chatter">Post Chatter</string>
+    <string name="button_view_chatter">View Reviews</string>
+    <string name="receive_chatter_title">Chatter</string>
+    <string name="custom_list_view_title">View Reviews</string>
+    <string name="menu_item_view_preferences">Preferences</string>
+    <string name="preferences_title_user_name">Reviewer Name</string>
+    <string name="preferences_summary_user_name">Use this to add or modify your reviewer name</string>
+    <string name="preferences_title_password">Password</string>
+    <string name="preferences_summary_password">Use this to add or modify your password</string>
+    <string name="preferences_title_main_background">Background Color</string>
+    <string name="preferences_main_background">Use this to add or modify your background</string>
+    <string name="preference_title_main_background">Background Color</string>
+    <string name="preference_summary_main_background">Use this to modify the background color of your main screen</string>
+    <string name="menu_item_view_reviews">View Reviews</string>
+    <string name="menu_item_view_custom_list_view">View Custom List</string>
+</resources>

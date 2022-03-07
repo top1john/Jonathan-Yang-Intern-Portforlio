@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/receive_chatter_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/receive_chatter_title"
+        android:textColor="@color/receive_chatter_title"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textbox_receive_chatter"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="12dp"
+        android:background="#FFFFFF"
+        android:textColor="@color/receive_chatter_text_view_text" />
+
+</LinearLayout>

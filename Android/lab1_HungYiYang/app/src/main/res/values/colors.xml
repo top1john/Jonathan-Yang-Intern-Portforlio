@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ca965c</color>
+    <color name="colorPrimaryDark">#876445</color>
+    <color name="colorAccent">#990000</color>
+    <color name="linear_layout_main_activity">#eec373</color>
+    <color name="text_view_main_title">#990000</color>
+    <color name="text_view_black">#000000</color>
+    <color name="edit_text_background">#ddcecece</color>
+    <color name="text_view_background">#ddcecece</color>
+    <color name="receive_chatter_background">#eec373</color>
+    <color name="receive_chatter_title">#990000</color>
+    <color name="receive_chatter_text_view_text">#876445</color>
+
+</resources>

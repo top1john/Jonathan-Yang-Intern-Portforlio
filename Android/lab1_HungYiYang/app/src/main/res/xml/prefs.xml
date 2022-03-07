@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="user_name"
+        android:summary="@string/preferences_summary_user_name"
+        android:title="@string/preferences_title_user_name" />
+    <EditTextPreference
+        android:key="password"
+        android:password="true"
+        android:summary="@string/preferences_summary_password"
+        android:title="@string/preferences_title_password" />
+    <ListPreference
+        android:key="background_main_list"
+        android:entries="@array/color_names"
+        android:entryValues="@array/color_values"
+        android:title="Background Color List"
+        android:summary="Use this list to change the background color" />
+</PreferenceScreen>
